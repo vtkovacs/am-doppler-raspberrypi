@@ -21,7 +21,7 @@ post process the output from am_rtl_channels and also requires four arguments:
  *  the number of data sets to process - if 0 process to eof
  
  For each line in channels_subchannels the corresponding output from am_rtl_channels is processed.
- Sets of NSAMPLES (8192) of data are processed to eof. For each FFT the subchannel range of power values are saved to a new file.
+ Sets of NSAMPLES (8192) of data are processed to eof. For each FFT the subchannel range of power values are appended to the output.
  One output file for each line in channels_subchannels is produced.
 
 ## Sample script collect.sh
